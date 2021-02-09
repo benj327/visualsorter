@@ -1,0 +1,27 @@
+.array-container {
+    position: absolute;
+    left: 100px;
+
+}
+
+.array-bar {
+    width: 2px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.buttons button {
+    background-color: grey; 
+    border: none;
+    color: #EAF0F1;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    display: block; /* Make the buttons appear below each other */
+    font: 15px "Century Gothic", Futura, sans-serif;
+}
+.buttons button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
